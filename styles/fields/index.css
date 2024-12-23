@@ -1,0 +1,28 @@
+input,
+textarea,
+select {
+  appearance: none;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--stroke-default);
+
+  padding: 12px 16px;
+
+  font: var(--text);
+}
+
+label {
+  font: var(--text-sm);
+  color: var(--text-secondary);
+
+  display: block;
+  margin-bottom: 4px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 4px solid var(--surface-secondary);
+  border: 2px solid var(--stroke-highlight);
+  outline-offset: 0.1px;
+}
