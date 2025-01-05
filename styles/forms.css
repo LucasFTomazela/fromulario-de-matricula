@@ -19,3 +19,9 @@ legend {
 fieldset + fieldset {
   margin-top: 48px;
 }
+
+.actions-wrapper {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+}
